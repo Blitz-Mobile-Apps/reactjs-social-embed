@@ -1,8 +1,8 @@
 {
   "name": "reactjs-social-embed",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "description": "Reactjs social embed provide faster and easy wrapper to embed platform like youtube, twitter, instagram, vimeo and so much more",
+  "author": "SMS",
   "license": "MIT",
   "repository": "/reactjs-social-embed",
   "main": "dist/index.js",
