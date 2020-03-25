@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const Youtube = ({ id, poster, autoPlay, width, height, parentClass, iframeClass, isPlaylist }) => {
-    const videoId = encodeURIComponent(id);    
-    const posterUrl = `https://i.ytimg.com/vi/${videoId}/${hqdefault}.jpg`;
-    const iframeSrc = !isPlaylist ? `https://www.youtube.com/embed/${videoId}?autoplay=${(autoPlay) ? '1': '0'}` : `https://www.youtube.com/embed/videoseries?list=${videoId}`;
+const Vimeo = ({ id, width, height, autoPlay, parentClass, iframeClass }) => {
+    const vimeoId = encodeURIComponent(id);    
+    const iframeSrc = `https://player.vimeo.com/video/${vimeoId}?autoplay=${(autoPlay) ? '1': '0'}`;
 
     return (
     <Fragment>
@@ -25,28 +24,23 @@ const Youtube = ({ id, poster, autoPlay, width, height, parentClass, iframeClass
   );
 }
 
-Youtube.propTypes = {
+Vimeo.propTypes = {
     id: PropTypes.string,
-    poster: PropTypes.string,
     width: PropTypes.string,
     height: PropTypes.string,
-    isPlaylist: PropTypes.bool,
     autoPlay: PropTypes.bool,
     parentClass: PropTypes.string,
-    embedClass: PropTypes.string,
     iframeClass: PropTypes.string,
 };
 
-Youtube.defaultProps = {
+Vimeo.defaultProps = {
     id: "",
     autoPlay: false,
-    poster: "hqdefault",
-    width: "560",
-    height: "315",
-    isPlaylist: false,
+    width: "640",
+    height: "360",
     parentClass: "",
     iframeClass: "",
 };
   
 
-export default Youtube;
+export default Vimeo;

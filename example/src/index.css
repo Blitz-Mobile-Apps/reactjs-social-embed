@@ -2,4 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: url('https://fsa.zobj.net/crop.php?r=19TgOS1ZYHOpQw8r9mGexFfhzYPv9fByTT2NJYl8coZCsdBWt8fjYzWS2R8RQxhdCZg2ykZVppB8ORHQTa_ffQETn21QY1z872ccSzDHGJoCzas9GB_WpTNk8bdUcxYPWfz-eeL1hi9GOxON');
 }
+
+.jumbotron{
+  background: none !important;
+  font-weight: bold;
+}
+

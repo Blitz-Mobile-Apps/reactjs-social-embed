@@ -1,4 +1,4 @@
-import { Youtube } from './lib/index';
+import { Youtube, Twitter, Instagram, Facebook, Vimeo  } from './lib/index';
 export { 
-  Youtube 
+  Youtube, Twitter, Instagram, Facebook, Vimeo 
 };
