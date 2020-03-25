@@ -1,10 +1,14 @@
 {
   "name": "reactjs-social-embed",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Reactjs social embed provide faster and easy wrapper to embed platform like youtube, twitter, instagram, vimeo and so much more",
   "author": "SMS",
   "license": "MIT",
-  "repository": "/reactjs-social-embed",
+  "homepage": "https://github.com/Blitz-Mobile-Apps/reactjs-social-embed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blitz-Mobile-Apps/reactjs-social-embed"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -20,6 +24,7 @@
     "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
+    
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
