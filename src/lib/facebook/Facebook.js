@@ -29,6 +29,7 @@ const Facebook = ({ type, url, width, height, show_text, parentClass, iframeClas
 
 Facebook.propTypes = {
     type: PropTypes.string,
+    url: PropTypes.string ,
     show_text: PropTypes.bool,
     width: PropTypes.string,
     height: PropTypes.string,
@@ -39,6 +40,7 @@ Facebook.propTypes = {
 Facebook.defaultProps = {
     type: 'post', 
     show_text: true, 
+    url: "", 
     width: "640",
     height: "640",
     parentClass: "",

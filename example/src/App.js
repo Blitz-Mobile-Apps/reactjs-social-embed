@@ -19,7 +19,8 @@ export default class App extends Component {
                   <Card.Header>
                     <h3 className="text-center">Youtube</h3> 
                     <pre>
-                    &lt;Youtube{'\n'} parentClass="parent-container"{'\n'} iframeClass="video-container"{'\n'} id="nN6VR92V70M"{'\n'}
+                    &lt;Youtube{'\n'} parentClass="parent-container"{'\n'} iframeClass="video-container"{'\n'} 
+                    id="w5GrxfjuTTI"{'\n'}
                     /&gt;</pre>
                   </Card.Header>
                   <Card.Body>
@@ -27,7 +28,7 @@ export default class App extends Component {
                         width="100%"
                         parentClass="parent-container" 
                         iframeClass="video-container" 
-                        id="nN6VR92V70M" 
+                        id="w5GrxfjuTTI" 
                       />                    
                   </Card.Body>
                 </Card>
@@ -39,7 +40,7 @@ export default class App extends Component {
                       /&gt;</pre>
                     </Card.Header>
                     <Card.Body>
-                      <Instagram url="https://www.instagram.com/p/B6tyOVxAxrk/" />
+                      <Instagram url="https://www.instagram.com/p/B8zB3rclo1H/" />
                     </Card.Body>
                   </Card>
                 <Card>
@@ -48,7 +49,7 @@ export default class App extends Component {
                   <pre>
                   &lt;Facebook{'\n'}
                     type="post"{'\n'}
-                    url="https://www.facebook.com/mangobaaz/posts/1662350923927272"{'\n'}
+                    url="https://www.facebook.com/postmalone/posts/1992925354174335"{'\n'}
                     show_text="true"{'\n'}
                   /&gt;</pre>
                   </Card.Header>
@@ -58,7 +59,7 @@ export default class App extends Component {
                     width="100%"
                     height="680px"
                     show_text={true}
-                    url="https://www.facebook.com/mangobaaz/posts/1662350923927272" />
+                    url="https://www.facebook.com/postmalone/posts/1992925354174335" />
                   </Card.Body>
                 </Card>
 
@@ -69,11 +70,11 @@ export default class App extends Component {
                   <h3 className="text-center">Twitter</h3> 
                   <pre>
                   &lt;Twitter{'\n'}
-                    id="1242725909485867008"{'\n'}
+                    id="1169826984433606656"{'\n'}
                   /&gt;</pre>
                   </Card.Header>
                   <Card.Body>
-                    <Twitter id="1242725909485867008" />
+                    <Twitter id="1169826984433606656" />
                   </Card.Body>
                 </Card>
                 <Card>
@@ -82,7 +83,7 @@ export default class App extends Component {
                   <pre>
                   &lt;Facebook{'\n'}
                     type="video"{'\n'}
-                    url="https://www.facebook.com/saman.abbas/videos/10157225567114503"{'\n'}
+                    url="https://www.facebook.com/postmalone/videos/908295402959230"{'\n'}
                     show_text="true"{'\n'}
                   /&gt;</pre>
                   </Card.Header>
@@ -91,7 +92,7 @@ export default class App extends Component {
                     type="video"
                     width="100%"
                     show_text={true}
-                    url="https://www.facebook.com/saman.abbas/videos/10157225567114503/" />
+                    url="https://www.facebook.com/postmalone/videos/908295402959230/" />
                   </Card.Body>
                 </Card>
                 <Card>
