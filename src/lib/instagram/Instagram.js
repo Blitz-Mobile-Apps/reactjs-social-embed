@@ -40,7 +40,7 @@ const Instagram = ({ id, url, hideCaption, width, parentClass }) => {
             setinstaEmbed(result.html)
           },
           (error) => {
-            console.throw(erorr);
+            console.throw(error);
           }
         )
     }
